@@ -36,7 +36,7 @@
   </tr>
   <tr>
     <th>git pull</th>
-    <td>obter as alterações feitas por outro membro do time.t</td>
+    <td>obter as alterações feitas por outro membro do time</td>
   </tr>
   <tr>
     <th>git status</th>
