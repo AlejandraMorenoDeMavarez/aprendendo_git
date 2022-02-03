@@ -1,0 +1,111 @@
+O Git é um sistema de controle de versão de codigo, utilizado principalmente no
+desenvolvimento de software criado no ano de 2005 por Linus Torvalds.
+
+Mas Git e GitHub são as mesmas coisas?
+Não, o GitHub é uma plataforma onde você pode armazenar seus projetos.
+É como se fosse uma rede social, só que de códigos, onde seus desenvolvedores 
+podem disponibilizá-los para outras pessoas verem.
+
+Comandos (add)
+
+git add = adiciona o arquivo a staging area.
+git add. = adiciona todos os arquivos modificados a staging area.
+git add --all = adiciona todos os arquivos até os removidos.
+
+Comandos (branch)
+
+git branch = apresenta todas as branch.
+git branch -m = muda o nome da branch.
+git branch -D = remove a branch.
+git branch --orphan = cria uma branch vazia limpa.
+
+Comandos (checkout)
+
+git checkout = muda para a branch.
+git checkout -b = cria uma branch  e muda para ela.
+
+Comando (clone)
+
+git clone = busca um repositório e baixa seus arquivos para sua maquina.
+
+Comandos (commit)
+
+git commit = adiciona o arquivo ao repositorio.
+git commit -m = permite adicionar uma mensagem ao commit.
+git commit -am = commit direto sem precisar adicionar na staging area.
+git commit --amend = sobescreve o ultimo commit.
+
+Comandos (config)
+
+git config --global core.excludesfile = para indicar um gitignore global.
+git config --global core.editor = para selecionar um editor padrão.
+git config --global credential.helper cache = salva a senha no computador.
+git config --global credential.helper 'cache--timeout=' = salva a senha no computador por um tempo determinado.
+git config --global user.email = configura o email global para todos os projetos.
+git config --global user.name =  configura o nome global para todos os projetos.
+git config user.email = configura o email de um projeto.
+git config user.name = config o nome de um usuario de um projeto.
+git config --list = apresenta a lista com as configurações do git.
+git clone --unset = remove alguma credencial.
+
+Comandos (diff)
+
+git diff = apresenta as alterações realizadas.
+git diff --staged = diferenças entre a staged e o repository.
+git diff -w = remove os espaços.
+
+Comando (fetch)
+
+git fetch = baixa as modificações de outro repositorio diferente do original.
+
+Comandos (init)
+
+git init = inicia o repositorio.
+git init --bare = cria repositorio para o servidor.
+
+Comandos (log)
+
+git log = apresenta dados do commit atual.
+git log --name-status = apresenta todos os arquivos modificados no log dos commit.
+git log --pretty=oneline = o log vem só em uma linha.
+git log --abrev-commit = reduz o nome do commit para trazer só os primeiros caracteres.
+git log --stat  = apresenta um log mais detalhado.
+git log -p- = traz a quantidade de commit especificados completo.
+git log --pretty=format = mediante uma formatação ele devolve o commit customizado.
+
+Comandos (merge)
+
+merge = justa as branch atual que você está com a que você solicitou.
+merge --abort = desfazer o merge.
+
+Comandos (push)
+
+push = sobe os commit de uma branch para o repositorio.
+push --delete = deleta a branch no repositorio.
+
+Comandos (remote)
+
+remote -v = mostra o caminho do repositorio.
+remote add = vincula os arquivoslocais a um repositorio.
+remote set-url = modifica o repositorio vinculado atual pelo novo.
+
+Comandos (rm)
+
+git rm = remove o arquivo do repositorio.
+git rm -r = remove um diretorio.
+git rm -rf = remove todos os arquivos da staging area.
+git rm -rf --cached = remove todos os arquivos sem remover localmente.
+
+
+
+OBS: esses são os comandos que eu mais uso!.
+
+
+
+
+
+
+
+
+
+
